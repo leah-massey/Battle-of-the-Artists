@@ -21,4 +21,8 @@ describe("Artist", () => {
   test("it returns the artist's skill level", () => {
     expect(artist.skill).toEqual(70);
   });
+
+  test("it returns the artist's charisma level", () => {
+    expect(artist.charisma).toEqual(80);
+  });
 });
