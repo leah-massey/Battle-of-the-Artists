@@ -16,4 +16,8 @@ describe("Painter", () => {
   test("it returns the medium used", () => {
     expect(painter.medium).toEqual("oils");
   });
+
+  test("it returns the artist's full name", () => {
+    expect(painter.fullName()).toEqual("William Turner");
+  });
 });
