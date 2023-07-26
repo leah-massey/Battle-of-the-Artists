@@ -34,4 +34,9 @@ describe("Artist", () => {
   test("it returns the artist's ingenuity level", () => {
     expect(artist.ingenuity).toEqual(50);
   });
+
+  //6
+  test("it returns the artist's full name", () => {
+    expect(artist.fullName()).toEqual("Dita Von Teese");
+  });
 });

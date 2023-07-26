@@ -7,6 +7,10 @@ class Artist {
     this.ingenuity = ingenuity;
     this.era = era;
   }
+
+  fullName() {
+    return `${this.firstName} ${this.secondName}`;
+  }
 }
 
 module.exports = Artist;
