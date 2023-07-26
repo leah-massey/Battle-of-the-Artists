@@ -10,19 +10,28 @@ describe("Artist", () => {
     "twentyfirst century"
   );
 
+  //1
   test("it returns the artist's first name", () => {
     expect(artist.firstName).toEqual("Dita");
   });
 
+  //2
   test("it returns the artist's second name", () => {
     expect(artist.secondName).toEqual("Von Teese");
   });
 
+  //3
   test("it returns the artist's skill level", () => {
     expect(artist.skill).toEqual(70);
   });
 
+  //4
   test("it returns the artist's charisma level", () => {
     expect(artist.charisma).toEqual(80);
+  });
+
+  //5
+  test("it returns the artist's ingenuity level", () => {
+    expect(artist.ingenuity).toEqual(50);
   });
 });
