@@ -1,6 +1,6 @@
 const Artist = require("./artist");
 
-class Perfomer extends Artist {
+class Performer extends Artist {
   constructor(
     firstName,
     secondName,
@@ -10,7 +10,8 @@ class Perfomer extends Artist {
     scandal,
     era,
     descriptionOfStyle,
-    perfomanceType
+    performanceType,
+    platform
   ) {
     super(
       firstName,
@@ -22,15 +23,17 @@ class Perfomer extends Artist {
       era,
       descriptionOfStyle
     );
-    this.medium = medium;
-    this.bestArtwork = bestArtwork;
+    this.performanceType = performanceType;
+    this.platform = platform;
   }
 
   intro() {
-    return `${super.fullName()}, ${this.era} painter, known for ${
-      this.descriptionOfArtwork
-    } ${this.medium} paintings such as ${this.bestArtwork}`;
+    return `${super.fullName()} is a ${this.era} ${
+      this.performanceType
+    }, best known for ${this.descriptionOfStyle} performances on ${
+      this.platform
+    }`;
   }
 }
 
-module.exports = Painter;
+module.exports = Performer;
