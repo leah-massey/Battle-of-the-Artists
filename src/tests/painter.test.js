@@ -20,4 +20,8 @@ describe("Painter", () => {
   test("it returns the artist's full name", () => {
     expect(painter.fullName()).toEqual("William Turner");
   });
+
+  test("it returns artists most famous work", () => {
+    expect(painter.bestArtwork).toEqual("Slave Ship");
+  });
 });
