@@ -39,4 +39,9 @@ describe("Artist", () => {
   test("it returns the artist's full name", () => {
     expect(artist.fullName()).toEqual("Dita Von Teese");
   });
+
+  //7
+  test("it returns the artist's era", () => {
+    expect(artist.era).toEqual("twentyfirst century");
+  });
 });
