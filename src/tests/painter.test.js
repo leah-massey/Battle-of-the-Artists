@@ -1,5 +1,4 @@
 const Painter = require("../components/painter");
-const Artist = require("../components/artist");
 
 describe("Painter", () => {
   const painter = new Painter(
@@ -8,13 +7,14 @@ describe("Painter", () => {
     90,
     30,
     90,
-    "nineteeth century",
-    "oils",
+    "nineteenth century",
+    "atmospheric",
+    "oil",
     "Slave Ship"
   );
 
   test("it returns the medium used", () => {
-    expect(painter.medium).toEqual("oils");
+    expect(painter.medium).toEqual("oil");
   });
 
   test("it returns the artist's full name", () => {
@@ -23,5 +23,11 @@ describe("Painter", () => {
 
   test("it returns artists most famous work", () => {
     expect(painter.bestArtwork).toEqual("Slave Ship");
+  });
+
+  test("it returns intro statement", () => {
+    expect(painter.intro()).toEqual(
+      "William Turner, nineteenth century painter, known for atmospheric oil paintings such as Slave Ship"
+    );
   });
 });

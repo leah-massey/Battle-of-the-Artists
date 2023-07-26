@@ -8,12 +8,27 @@ class Painter extends Artist {
     charisma,
     ingenuity,
     era,
+    descriptionOfArtwork,
     medium,
     bestArtwork
   ) {
-    super(firstName, secondName, skill, charisma, ingenuity, era);
+    super(
+      firstName,
+      secondName,
+      skill,
+      charisma,
+      ingenuity,
+      era,
+      descriptionOfArtwork
+    );
     this.medium = medium;
     this.bestArtwork = bestArtwork;
+  }
+
+  intro() {
+    return `${super.fullName()}, ${this.era} painter, known for ${
+      this.descriptionOfArtwork
+    } ${this.medium} paintings such as ${this.bestArtwork}`;
   }
 }
 
