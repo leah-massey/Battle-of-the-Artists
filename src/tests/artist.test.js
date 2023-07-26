@@ -17,4 +17,8 @@ describe("Artist", () => {
   test("it returns the artist's second name", () => {
     expect(artist.secondName).toEqual("Von Teese");
   });
+
+  test("it returns the artist's skill level", () => {
+    expect(artist.skill).toEqual(70);
+  });
 });
