@@ -7,6 +7,7 @@ describe("Artist", () => {
     70,
     80,
     50,
+    40,
     "twentyfirst century"
   );
 

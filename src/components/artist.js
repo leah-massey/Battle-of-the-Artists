@@ -5,8 +5,9 @@ class Artist {
     skill,
     charisma,
     ingenuity,
+    scandal,
     era,
-    descriptionOfArtwork
+    descriptionOfStyle
   ) {
     this.firstName = firstName;
     this.secondName = secondName;
@@ -14,7 +15,7 @@ class Artist {
     this.charisma = charisma;
     this.ingenuity = ingenuity;
     this.era = era;
-    this.descriptionOfArtwork = descriptionOfArtwork;
+    this.descriptionOfStyle = descriptionOfStyle;
   }
 
   fullName() {
