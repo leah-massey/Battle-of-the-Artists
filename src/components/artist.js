@@ -1,6 +1,6 @@
 class Artist {
-  name() {
-    return "Michelangelo di Lodovico Buonarroti Simoni";
+  constructor(firstName) {
+    this.firstName = firstName;
   }
 }
 
