@@ -8,7 +8,6 @@ describe("Performer", () => {
     80,
     50,
     40,
-
     "twentyfirst century",
     "saucy",
     "Burlesque Dancer",
