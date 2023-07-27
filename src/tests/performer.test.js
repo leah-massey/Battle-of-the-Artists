@@ -9,14 +9,14 @@ describe("Performer", () => {
     50,
     40,
     "twentyfirst century",
-    "saucy",
+    "erotic",
     "Burlesque Dancer",
     "stage"
   );
 
   test("it returns a statement about the performer", () => {
     expect(performer.intro()).toEqual(
-      "Dita Von Teese is a twentyfirst century Burlesque Dancer, best known for saucy performances on stage"
+      "Dita Von Teese is a twentyfirst century Burlesque Dancer, best known for erotic performances on stage"
     );
   });
 });
