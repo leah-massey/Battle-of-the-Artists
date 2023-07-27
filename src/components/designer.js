@@ -25,6 +25,10 @@ class Designer extends Artist {
 
     this.field = field;
   }
+
+  intro() {
+    return "Vivienne Westwood is a twentyfirst century fashion designer with a modern punk aesthetic.";
+  }
 }
 
 module.exports = Designer;

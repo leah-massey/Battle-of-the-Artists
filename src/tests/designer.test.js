@@ -16,4 +16,10 @@ describe("Designer", () => {
   test("it returns best artwork", () => {
     expect(designer.field).toEqual("fashion");
   });
+
+  test("it returns an intro phrase for the designer", () => {
+    expect(designer.intro()).toEqual(
+      "Vivienne Westwood is a twentyfirst century fashion designer with a modern punk aesthetic."
+    );
+  });
 });
