@@ -1,6 +1,8 @@
 # Battle of the Artists
 
-Battle of the Artists is a digital card game, based on the popular Top Trumps where a player is dealt a selection of cards, each belonging to an artist - be that a painter, performer, musician or designer.
+(WIP!)
+
+Battle of the Artists is a digital card game, built in React using TDD and OOP and MongoDB's Atlas. The game is based on the popular Top Trumps where the player is dealt a selection of cards, each belonging to an artist - be that a painter, performer, musician or designer.
 
 Each artist is scored out of 100 on the following qualtities:
 
@@ -9,7 +11,10 @@ Each artist is scored out of 100 on the following qualtities:
 - ingenuity
 - scandal
 
-Further information on each artist will be stored in a databse. I plan to use MongoDB's Atlas.
+The player must select which of the qualties to pitch against the computer's cared - for which only the name of the artist is revealed. 
+
+Players can create an account, and keep track of their previous scores.
+
 
 <img src="./src/assets/readme-screenshot.png" alt="Alt text" title="Game Design">
 
