@@ -27,7 +27,9 @@ class Designer extends Artist {
   }
 
   intro() {
-    return "Vivienne Westwood is a twentyfirst century fashion designer with a modern punk aesthetic.";
+    return `${super.fullName()} is a ${this.era} ${
+      this.field
+    } designer with a ${this.descriptionOfStyle} aesthetic.`;
   }
 }
 
