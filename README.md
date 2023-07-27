@@ -11,7 +11,7 @@ Each artist is scored out of 100 on the following qualtities:
 
 Further information on each artist will be stored in a databse. I plan to use MongoDB's Atlas.
 
-<img src="/assets/readme-screenshot.png" alt="Alt text" title="Game Design">
+<img src="./src/assets/readme-screenshot.png" alt="Alt text" title="Game Design">
 
 # Getting Started with Create React App
 
